@@ -51,6 +51,84 @@ Assess model performance using metrics such as R-squared, Mean Absolute Error, M
 
 Analyze model results to identify trends and correlations between features (e.g., RAM vs. price) and generate actionable insights.
 
+
+## Regression models
+
+
+### 1. Linear Regression
+
+
+Description: Linear Regression is one of the simplest regression techniques, which assumes a linear relationship between the independent variables (features) and the dependent variable (price). It estimates the coefficients that minimize the difference between the predicted and actual values.
+
+Performance Metrics:
+
+- R-squared Score: 0.672
+- Mean Squared Error (MSE): 0.132
+- Mean Absolute Error (MAE): 0.279
+- Root Mean Squared Error (RMSE): 0.363
+  
+Insights: The R-squared score indicates that approximately 67.2% of the variance in laptop prices can be explained by the features used in the model. While it provides a baseline, the performance could be improved with more complex models.
+
+
+
+### 2. Ridge Regression
+
+Description: Ridge Regression is a type of linear regression that includes L2 regularization, which helps prevent overfitting by adding a penalty for large coefficients. This is particularly useful in cases where there are many features or multicollinearity.
+
+Performance Metrics:
+
+- R-squared Score: 0.671
+- Mean Squared Error (MSE): 0.132
+- Mean Absolute Error (MAE): 0.279
+- Root Mean Squared Error (RMSE): 0.364
+
+  
+Insights: The performance metrics for Ridge Regression are similar to those of Linear Regression, with a slightly lower R-squared score. This suggests that while regularization helps in certain contexts, it may not significantly enhance performance in this dataset.
+
+### 3. Random Forest Regression
+Description: Random Forest Regression is an ensemble learning method that uses multiple decision trees to make predictions. It aggregates the predictions from various trees to improve accuracy and control overfitting.
+
+Performance Metrics:
+
+- R-squared Score: 0.906
+- Mean Squared Error (MSE): 0.037
+- Mean Absolute Error (MAE): 0.152
+- Root Mean Squared Error (RMSE): 0.194
+
+
+Insights: Random Forest Regression outperformed the other models, with an R-squared score of 90.6%, indicating that it explains a large portion of the variance in laptop prices. Its low error metrics reflect its robustness and effectiveness in capturing complex relationships in the data.
+
+### 4. Support Vector Machine (SVM) Regression
+
+
+Description: Support Vector Machine Regression (SVR) is based on the principles of support vector machines and is effective for high-dimensional spaces. It attempts to find a hyperplane that best separates the data points, accommodating non-linear relationships through the kernel trick.
+
+Performance Metrics:
+
+- R-squared Score: 0.893
+- Mean Squared Error (MSE): 0.042
+- Mean Absolute Error (MAE): 0.154
+- Root Mean Squared Error (RMSE): 0.207
+
+  
+Insights: With an R-squared score of 89.3%, SVR shows strong performance in predicting laptop prices. Its metrics suggest it captures complex relationships well but slightly lags behind Random Forest in performance.
+
+
+### 5. AdaBoost Regression
+
+Description: AdaBoost Regression is an ensemble method that combines the predictions from multiple weak learners (often decision trees) to improve accuracy. It focuses on misclassified data points to adjust the model iteratively.
+
+Performance Metrics:
+
+- R-squared Score: 0.840
+- Mean Squared Error (MSE): 0.064
+- Mean Absolute Error (MAE): 0.202
+- Root Mean Squared Error (RMSE): 0.254
+
+  
+Insights: The performance metrics for AdaBoost Regression indicate good predictive power, with an R-squared score of 84.0%. Although it does not outperform Random Forest, it still provides reliable predictions and is useful in capturing various patterns in the data.
+
+
 ## Visuals and Key Insights
 
 ### Scatter Plot of RAM vs. Price:
@@ -72,6 +150,9 @@ Illustrates price variations across different operating systems, informing consu
 ### Correlation Matrix:
 
 Summarizes pairwise correlations among features, indicating the relationships and potential multicollinearity between them.
+
+![image](https://github.com/user-attachments/assets/fe867f95-5f27-4316-80a3-740d58e27007)
+
 
 ## Technical Skills
 
