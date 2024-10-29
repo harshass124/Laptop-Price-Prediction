@@ -130,6 +130,33 @@ Insights: The performance metrics for AdaBoost Regression indicate good predicti
 
 
 ## Visuals and Key Insights
+![Screenshot 2024-10-29 200239](https://github.com/user-attachments/assets/9c8dfe3d-bc48-4002-9167-9a9264a3178b)
+
+
+![Screenshot 2024-10-29 200301](https://github.com/user-attachments/assets/215b41c7-bccb-4a9c-9d82-5908b8bea155)
+
+
+![Screenshot 2024-10-29 200321](https://github.com/user-attachments/assets/c8878375-d8f4-42bf-824a-0a8f5d59d0b0)
+
+
+![Screenshot 2024-10-29 200335](https://github.com/user-attachments/assets/e1ea4773-e3f9-4a46-aba8-5c8504229ad6)
+
+
+![Screenshot 2024-10-29 200350](https://github.com/user-attachments/assets/e04efbac-ea99-4b33-a1c3-1127317cda14)
+
+
+![Screenshot 2024-10-29 200358](https://github.com/user-attachments/assets/9f78dd56-de83-4fd9-b570-e542e4bfb575)
+
+
+
+![Screenshot 2024-10-29 200406](https://github.com/user-attachments/assets/37259ed5-d5ce-4185-9f0a-f83fa6d867b9)
+
+
+
+![Screenshot 2024-10-29 200428](https://github.com/user-attachments/assets/dbb237cd-50ca-4339-895e-98f7b6ea8785)
+
+
+
 
 ### Scatter Plot of RAM vs. Price:
 
